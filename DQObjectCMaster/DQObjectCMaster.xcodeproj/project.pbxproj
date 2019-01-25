@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		764E09D18B19B456609D4130 /* Pods_DQObjectCMaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96F32B06F9F48552A62F575F /* Pods_DQObjectCMaster.framework */; };
 		EE543FF221C8CEC8000C5EE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE543FF121C8CEC8000C5EE3 /* AppDelegate.m */; };
 		EE543FF521C8CEC8000C5EE3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE543FF421C8CEC8000C5EE3 /* ViewController.m */; };
 		EE543FF821C8CEC8000C5EE3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE543FF621C8CEC8000C5EE3 /* Main.storyboard */; };
 		EE543FFA21C8CEC9000C5EE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE543FF921C8CEC9000C5EE3 /* Assets.xcassets */; };
 		EE543FFD21C8CEC9000C5EE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE543FFB21C8CEC9000C5EE3 /* LaunchScreen.storyboard */; };
 		EE54400021C8CEC9000C5EE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE543FFF21C8CEC9000C5EE3 /* main.m */; };
+		EEAD5C2021D756D900FC36CF /* Template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEAD5C1F21D756D900FC36CF /* Template.cpp */; };
+		EEB501E321FADAF200D79B63 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB501E221FADAF200D79B63 /* Person.m */; };
+		EEB501E721FADEE900D79B63 /* Macro.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB501E621FADEE900D79B63 /* Macro.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		96F32B06F9F48552A62F575F /* Pods_DQObjectCMaster.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DQObjectCMaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0FA514A915519ADD2AF49C /* Pods-DQObjectCMaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQObjectCMaster.release.xcconfig"; path = "Pods/Target Support Files/Pods-DQObjectCMaster/Pods-DQObjectCMaster.release.xcconfig"; sourceTree = "<group>"; };
 		EE543FED21C8CEC8000C5EE3 /* DQObjectCMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DQObjectCMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE543FF021C8CEC8000C5EE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EE543FF121C8CEC8000C5EE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +32,12 @@
 		EE543FFC21C8CEC9000C5EE3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE543FFE21C8CEC9000C5EE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE543FFF21C8CEC9000C5EE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEAD5C1F21D756D900FC36CF /* Template.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Template.cpp; sourceTree = "<group>"; };
+		EEB501E121FADAF200D79B63 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		EEB501E221FADAF200D79B63 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		EEB501E521FADEE900D79B63 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		EEB501E621FADEE900D79B63 /* Macro.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Macro.m; sourceTree = "<group>"; };
+		FD33C6D3D66F5F75280CFAB5 /* Pods-DQObjectCMaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DQObjectCMaster.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DQObjectCMaster/Pods-DQObjectCMaster.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				764E09D18B19B456609D4130 /* Pods_DQObjectCMaster.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05F1B76722F9F883129160DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD33C6D3D66F5F75280CFAB5 /* Pods-DQObjectCMaster.debug.xcconfig */,
+				ED0FA514A915519ADD2AF49C /* Pods-DQObjectCMaster.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E3219B0DDFFE21B2C865F870 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96F32B06F9F48552A62F575F /* Pods_DQObjectCMaster.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		EE543FE421C8CEC8000C5EE3 = {
 			isa = PBXGroup;
 			children = (
 				EE543FEF21C8CEC8000C5EE3 /* DQObjectCMaster */,
 				EE543FEE21C8CEC8000C5EE3 /* Products */,
+				05F1B76722F9F883129160DA /* Pods */,
+				E3219B0DDFFE21B2C865F870 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +90,9 @@
 		EE543FEF21C8CEC8000C5EE3 /* DQObjectCMaster */ = {
 			isa = PBXGroup;
 			children = (
+				EEB501E421FADE8A00D79B63 /* 编译、宏 */,
+				EEB501E021FADACE00D79B63 /* 链式 */,
+				EEAD5C1E21D755FC00FC36CF /* C++ */,
 				EE543FF021C8CEC8000C5EE3 /* AppDelegate.h */,
 				EE543FF121C8CEC8000C5EE3 /* AppDelegate.m */,
 				EE543FF321C8CEC8000C5EE3 /* ViewController.h */,
@@ -71,6 +106,32 @@
 			path = DQObjectCMaster;
 			sourceTree = "<group>";
 		};
+		EEAD5C1E21D755FC00FC36CF /* C++ */ = {
+			isa = PBXGroup;
+			children = (
+				EEAD5C1F21D756D900FC36CF /* Template.cpp */,
+			);
+			path = "C++";
+			sourceTree = "<group>";
+		};
+		EEB501E021FADACE00D79B63 /* 链式 */ = {
+			isa = PBXGroup;
+			children = (
+				EEB501E121FADAF200D79B63 /* Person.h */,
+				EEB501E221FADAF200D79B63 /* Person.m */,
+			);
+			path = "链式";
+			sourceTree = "<group>";
+		};
+		EEB501E421FADE8A00D79B63 /* 编译、宏 */ = {
+			isa = PBXGroup;
+			children = (
+				EEB501E521FADEE900D79B63 /* Macro.h */,
+				EEB501E621FADEE900D79B63 /* Macro.m */,
+			);
+			path = "编译、宏";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EE54400321C8CEC9000C5EE3 /* Build configuration list for PBXNativeTarget "DQObjectCMaster" */;
 			buildPhases = (
+				D6100912FE573ADBC64A651F /* [CP] Check Pods Manifest.lock */,
 				EE543FE921C8CEC8000C5EE3 /* Sources */,
 				EE543FEA21C8CEC8000C5EE3 /* Frameworks */,
 				EE543FEB21C8CEC8000C5EE3 /* Resources */,
+				CDF87EEEEEA2E613D2A708E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,12 +199,102 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CDF87EEEEEA2E613D2A708E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DQObjectCMaster/Pods-DQObjectCMaster-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Dollar/Dollar.framework",
+				"${BUILT_PRODUCTS_DIR}/INTULocationManager/INTULocationManager.framework",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/OMGHTTPURLRQ/OMGHTTPURLRQ.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TSVoiceConverter/TSVoiceConverter.framework",
+				"${BUILT_PRODUCTS_DIR}/TimedSilver/TimedSilver.framework",
+				"${BUILT_PRODUCTS_DIR}/UIColor_Hex_Swift/UIColor_Hex_Swift.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dollar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/INTULocationManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OMGHTTPURLRQ.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PromiseKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TSVoiceConverter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TimedSilver.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UIColor_Hex_Swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DQObjectCMaster/Pods-DQObjectCMaster-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6100912FE573ADBC64A651F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DQObjectCMaster-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EE543FE921C8CEC8000C5EE3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEB501E721FADEE900D79B63 /* Macro.m in Sources */,
 				EE543FF521C8CEC8000C5EE3 /* ViewController.m in Sources */,
+				EEAD5C2021D756D900FC36CF /* Template.cpp in Sources */,
+				EEB501E321FADAF200D79B63 /* Person.m in Sources */,
 				EE54400021C8CEC9000C5EE3 /* main.m in Sources */,
 				EE543FF221C8CEC8000C5EE3 /* AppDelegate.m in Sources */,
 			);
@@ -283,6 +436,7 @@
 		};
 		EE54400421C8CEC9000C5EE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD33C6D3D66F5F75280CFAB5 /* Pods-DQObjectCMaster.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +453,7 @@
 		};
 		EE54400521C8CEC9000C5EE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED0FA514A915519ADD2AF49C /* Pods-DQObjectCMaster.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
