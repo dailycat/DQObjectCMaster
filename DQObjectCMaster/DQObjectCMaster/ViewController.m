@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <PromiseKit/PromiseKit.h>
 
 @interface ViewController ()
 
@@ -17,7 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    [PMKPromise promiseWithResolver:^(PMKResolver resolve) {
+        
+    }];
     // Do any additional setup after loading the view, typically from a nib.
 }
 
