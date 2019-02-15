@@ -17,6 +17,7 @@
 		EEAD5C2021D756D900FC36CF /* Template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EEAD5C1F21D756D900FC36CF /* Template.cpp */; };
 		EEB501E321FADAF200D79B63 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB501E221FADAF200D79B63 /* Person.m */; };
 		EEB501E721FADEE900D79B63 /* Macro.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB501E621FADEE900D79B63 /* Macro.m */; };
+		EEBD880E2213B74C00B8E930 /* Sort.c in Sources */ = {isa = PBXBuildFile; fileRef = EEBD880D2213B74C00B8E930 /* Sort.c */; };
 		EEFCE46E21FE924A00F70589 /* DQListNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFCE46D21FE924A00F70589 /* DQListNode.m */; };
 		EEFCE47121FE92A700F70589 /* DQLinkList.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFCE47021FE92A700F70589 /* DQLinkList.m */; };
 		EEFCE47521FE99C400F70589 /* DQStack.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFCE47421FE99C400F70589 /* DQStack.m */; };
@@ -41,6 +42,7 @@
 		EEB501E221FADAF200D79B63 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		EEB501E521FADEE900D79B63 /* Macro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
 		EEB501E621FADEE900D79B63 /* Macro.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Macro.m; sourceTree = "<group>"; };
+		EEBD880D2213B74C00B8E930 /* Sort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Sort.c; sourceTree = "<group>"; };
 		EEFCE46C21FE924A00F70589 /* DQListNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQListNode.h; sourceTree = "<group>"; };
 		EEFCE46D21FE924A00F70589 /* DQListNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DQListNode.m; sourceTree = "<group>"; };
 		EEFCE46F21FE92A700F70589 /* DQLinkList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DQLinkList.h; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 		EEFCE46B21FE917300F70589 /* 数据结构 */ = {
 			isa = PBXGroup;
 			children = (
+				EEBD880D2213B74C00B8E930 /* Sort.c */,
 				EEFCE47821FE9C3800F70589 /* 二叉树 */,
 				EEFCE47721FE9C1100F70589 /* 链表 */,
 				EEFCE47221FE99AA00F70589 /* 栈 */,
@@ -345,6 +348,7 @@
 			files = (
 				EEB501E721FADEE900D79B63 /* Macro.m in Sources */,
 				EE543FF521C8CEC8000C5EE3 /* ViewController.m in Sources */,
+				EEBD880E2213B74C00B8E930 /* Sort.c in Sources */,
 				EEAD5C2021D756D900FC36CF /* Template.cpp in Sources */,
 				EEFCE47521FE99C400F70589 /* DQStack.m in Sources */,
 				EEB501E321FADAF200D79B63 /* Person.m in Sources */,

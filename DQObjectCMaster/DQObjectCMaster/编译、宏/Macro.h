@@ -66,6 +66,12 @@
 //子类重写这个方法的时候，必须调用[super xxx]
 //#define NS_REQUIRES_SUPER __attribute__((objc_requires_super))
 //- (void)method2 __attribute__((objc_requires_super));
+
+//__builtin_expect指令
+#define likely(x) __builtin_expect(!!(x), 1) //x很可能为真
+#define unlikely(x) __builtin_expect(!!(x), 0) //x很可能为假
+
+//通过这种方式，编译器在编译过程中，会将可能性更大的代码紧跟着起面的代码，从而减少指令跳转带来的性能上的下降。
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Macro : NSObject
